@@ -1,0 +1,60 @@
+
+.submit-entry-from-section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#submit-entry-form {
+    margin-top: 20px;
+}
+
+.submit-entry-from-section .form-group {
+    margin-bottom: 15px;
+}
+
+.submit-entry-from-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.submit-entry-from-section input[type="text"],
+.submit-entry-from-section input[type="email"],
+.submit-entry-from-section input[type="tel"],
+.submit-entry-from-section textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-entry-from-section input[type="button"],.submit-entry-wrapper a.submit-entry-button{
+    display: block;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-entry-wrapper a.submit-entry-button{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 12px;
+}
+.submit-entry-from-section input[type="button"]:hover,
+.submit-entry-wrapper a.submit-entry-button:hover {
+    background-color: #45a049;
+}
+
+.submit-entry-from-section .invalid-field {
+    border: 1px solid red;
+}
+
+.submit-entry-from-section .error-message {
+    color: red;
+    margin-top: 5px;
+}

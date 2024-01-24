@@ -1,0 +1,38 @@
+
+.entry-custom-field-section>div{
+    margin-bottom: 15px;
+}
+
+.entry-custom-field-section label {
+    display: inline-block;
+    width: 120px; /* Adjust the width as needed */
+    font-weight: bold;
+}
+
+.entry-custom-field-section input[type="text"],
+.entry-custom-field-section input[type="email"],
+.entry-custom-field-section input[type="tel"],
+.entry-custom-field-section textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*  Style for the 'Submit Entry' button */
+.entry-custom-field-section .submit-entry-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.entry-custom-field-section .submit-entry-button:hover {
+    background-color: #45a049;
+}
